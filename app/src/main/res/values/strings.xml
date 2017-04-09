@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TytusQuiz</string>
+    <string name="start_quiz">Rozpocznij quiz</string>
+    <string name="what_s_your_name">Jak masz na imię?</string>
+    <string name="your_name">Twoje imię</string>
+    <string name="lets_start">Do dzieła!</string>
+    <string name="question1">Jak ma na imię ta postać?</string>
+    <string name="tytus_de_zoo">Tytus de Zoo</string>
+    <string name="romek">Romek</string>
+    <string name="atomek">A\'Tomek</string>
+    <string name="papcio_chmiel">Papcio Chmiel</string>
+    <string name="mr_monkey">Mr. Monkey</string>
+    <string name="tytus_z_zoo">Tytus z Zoo</string>
+    <string name="next_question">Następne pytanie</string>
+    <string name="question2">Z kim przyjaźni się Tytus?</string>
+    <string name="previous_question">Poprzednie pytanie</string>
+    <string name="with_romek">Z Romkiem</string>
+    <string name="with_atomek">Z A\'Tomkiem</string>
+    <string name="with_flip_n_flap">z Flipem i Flapem</string>
+    <string name="with_captain_america">Z Kapitanem Ameryką</string>
+    <string name="img_2_tip">Kumple Tytusa</string>
+    <string name="welcome">Witaj podróżniku!</string>
+    <string name="img_1_tip">Główny bohater</string>
+    <string name="img_3_tip">Autor</string>
+    <string name="question3">Kto tworzy komiksy o Tytusie?</string>
+    <string name="question3_tip">(Zaznacz wszystkie poprawne odpowiedzi)</string>
+    <string name="img_4_tip">Tytus, Romek i A\'Tomek - Księga I</string>
+    <string name="question4">W którym roku wydana została pierwsza księga z serii o Tytusie??</string>
+    <string name="img_5_tip">Tytus, Romek i A’Tomek - księga XI</string>
+    <string name="question5">Jak nazywa się ten pojazd?</string>
+    <string name="end_quiz">Zakończ quiz</string>
+    <string name="question5_hint">Tutaj wpisz nazwę pojazdu</string>
+    <string name="tytus_romek_and_atomek">Tytus, Romek i A\'Tomek</string>
+    <string name="again">jeszcze raz</string>
+    <string name="send_review">wyślij podsumowanie</string>
+    <string name="img_questionnaire_tip">Kwestionariusz</string>
+    <string name="review_0_part1"></string>
+    <string name="review_0_part2">, na prawdę nic nie wiesz o Tytusie? No nie żartuj! Czas więc najwyższy, żeby nadrobić wszystkie zaległości. Sięgnij po komiksy - na pewno Ci się spodobają!</string>
+    <string name="review_1_part1"></string>
+    <string name="review_1_part2">, przyznaj się - tą jedną poprawną odpowiedź udało Ci się zaznaczyć przez przypadek, prawda? ;-) No cóż, zbyt wiele o Tytusie to Ty nie wiesz... Nieważne, poczytaj komiksy, to się dowiesz!</string>
+    <string name="review_2_part1">No,</string>
+    <string name="review_2_part2">, coś tam obiło Ci się o uszy, ale raczej niewiele. Masz dużo do nadrobienia! Poczytaj komiksy!</string>
+    <string name="review_3_part1">Kojarzysz Tytusa i jego przyjaciół, ale ich przygody znasz tylko pobieżnie. Wiesz co</string>
+    <string name="review_3_part2">, lepiej odłóż ten telefon, weź komiksy do ręki i koniecznie nadrób wszystkie zaległości!</string>
+    <string name="review_4_part1">Brawo</string>
+    <string name="review_4_part2">! Całkiem dobrze znasz serię o Tytusie! Aczkolwiek wciąż ma ona dla Ciebie kilka tajemnic. Nic nie szkodzi, nadrobisz!</string>
+    <string name="review_5_part1">Piąteczka Mistrzu! Gratulacje</string>
+    <string name="review_5_part2">! Wiesz o Tytusie bardzo dużo i pewnie chętnie sięgasz po komiksy Papcia Chmiela. Tak trzymać!</string>
+    <string name="empty_questionnarie_communique">Wpisz imię!</string>
+    <string name="empty_answer5_communique">Wpisz odpowiedź!</string>
+    <string name="empty_answer123_communique">Zaznacz odpowiedź!</string>
+    <string name="select_from_list">Wybierz z listy</string>
+    <string name="select_answer_from_list">Wybierz odpowiedź z listy!</string>
+    <string name="title_activity_language_settings">LanguageSettingsActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

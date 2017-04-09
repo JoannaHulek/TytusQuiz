@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TytusQuiz</string>
+    <string name="start_quiz">Start quiz</string>
+    <string name="what_s_your_name">What\'s your name?</string>
+    <string name="your_name">Your name</string>
+    <string name="lets_start">Let\'s start!</string>
+    <string name="question1">What is the name of this character?</string>
+    <string name="tytus_de_zoo">Tytus de Zoo</string>
+    <string name="romek">Romek</string>
+    <string name="atomek">A\'Tomek</string>
+    <string name="papcio_chmiel">Papcio Chmiel</string>
+    <string name="mr_monkey">Mr. Monkey</string>
+    <string name="tytus_z_zoo">Tytus z Zoo</string>
+    <string name="next_question">Next question</string>
+    <string name="question2">Who are Tytus best friends?</string>
+    <string name="again">again</string>
+    <string name="end_quiz">end qiuz</string>
+    <string name="img_1_tip">Main character</string>
+    <string name="img_2_tip">Tytus friends</string>
+    <string name="img_3_tip">Author</string>
+    <string name="img_4_tip">Tytus, Romek and A\'Tomek - Book I</string>
+    <string name="img_5_tip">Tytus, Romek and A\'Tomek - Book XI</string>
+    <string name="previous_question">previous question</string>
+    <string name="question3">Who is the author of the comic series about Tytus?</string>
+    <string name="question3_tip">(Select all the correct answers)</string>
+    <string name="question4">In which year was published the first book of a series about Tytus?</string>
+    <string name="question5">What is the name of this vehicle?</string>
+    <string name="question5_hint">Type the name of the vehicle here</string>
+    <string name="send_review">send review</string>
+    <string name="tytus_romek_and_atomek">Tytus Romek and A\'Tomek</string>
+    <string name="welcome">Welcome!</string>
+    <string name="with_atomek">With A\'Tomek</string>
+    <string name="with_captain_america">With Capitan America</string>
+    <string name="with_flip_n_flap">With Flip and Flap</string>
+    <string name="with_romek">With Romek</string>
+    <string name="img_questionnaire_tip">Questionnaire</string>
+    <string name="review_2_part1">"Well, "</string>
+    <string name="empty_questionnarie_communique">Type your name!</string>
+    <string name="empty_answer5_communique">Type your answer!</string>
+    <string name="empty_answer123_communique">Select answer!</string>
+    <string name="select_from_list">Select from list</string>
+    <string name="select_answer_from_list">Select answet from list!</string>
+    <string name="review_0_part1">" "</string>
+</resources>
