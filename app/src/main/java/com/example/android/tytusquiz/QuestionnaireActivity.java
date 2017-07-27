@@ -19,11 +19,9 @@ public class QuestionnaireActivity extends AppCompatActivity {
         setContentView(R.layout.activity_questionnaire);
     }
 
-    //next screen
     @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
     public void startQuiz(View v){
 
-        //getting user's name
         EditText nameField = (EditText) findViewById(R.id.name_input);
 
         if (nameField.getText().toString().trim().length() == 0) {
