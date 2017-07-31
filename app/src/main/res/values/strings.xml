@@ -35,9 +35,9 @@
     <string name="again">jeszcze raz</string>
     <string name="send_review">wyślij podsumowanie</string>
     <string name="img_questionnaire_tip">Kwestionariusz</string>
-    <string name="review_0_part1"></string>
+    <string name="review_0_part1"> </string>
     <string name="review_0_part2">, na prawdę nic nie wiesz o Tytusie? No nie żartuj! Czas więc najwyższy, żeby nadrobić wszystkie zaległości. Sięgnij po komiksy - na pewno Ci się spodobają!</string>
-    <string name="review_1_part1"></string>
+    <string name="review_1_part1"> </string>
     <string name="review_1_part2">, przyznaj się - tą jedną poprawną odpowiedź udało Ci się zaznaczyć przez przypadek, prawda? ;-) No cóż, zbyt wiele o Tytusie to Ty nie wiesz... Nieważne, poczytaj komiksy, to się dowiesz!</string>
     <string name="review_2_part1">No,</string>
     <string name="review_2_part2">, coś tam obiło Ci się o uszy, ale raczej niewiele. Masz dużo do nadrobienia! Poczytaj komiksy!</string>
@@ -52,10 +52,5 @@
     <string name="empty_answer123_communique">Zaznacz odpowiedź!</string>
     <string name="select_from_list">Wybierz z listy</string>
     <string name="select_answer_from_list">Wybierz odpowiedź z listy!</string>
-    <string name="title_activity_language_settings">LanguageSettingsActivity</string>
 
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-
-    <string name="action_settings">Settings</string>
 </resources>

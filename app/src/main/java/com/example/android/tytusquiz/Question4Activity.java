@@ -26,7 +26,6 @@ public class Question4Activity extends AppCompatActivity {
         addItemsOnYearSpinner();
     }
 
-    //add items on year spinner
     private Spinner yearSpinner;
 
     private void addItemsOnYearSpinner() {
