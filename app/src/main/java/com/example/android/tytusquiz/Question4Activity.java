@@ -46,9 +46,9 @@ public class Question4Activity extends AppCompatActivity {
 
         String year = (String) yearSpinner.getSelectedItem();
 
-        if (year.equals(getResources().getString(R.string.select_from_list))){
-            Toast.makeText(this, R.string.select_answer_from_list,Toast.LENGTH_SHORT).show();
-        }else {
+        if (year.equals(getResources().getString(R.string.select_from_list))) {
+            Toast.makeText(this, R.string.select_answer_from_list, Toast.LENGTH_SHORT).show();
+        } else {
             answers[3] = (year.equals("1966"));
 
             saveData.putBooleanArray("answers", answers);

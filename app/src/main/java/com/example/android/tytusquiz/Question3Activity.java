@@ -1,8 +1,8 @@
 package com.example.android.tytusquiz;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.Toast;
@@ -20,8 +20,7 @@ public class Question3Activity extends AppCompatActivity {
         answers = saveData.getBooleanArray("answers");
     }
 
-
-    public void nextQuestion (View v){
+    public void nextQuestion(View v) {
         CheckBox henrykJerzyChmielewskiCheckBox = (CheckBox) findViewById(R.id.henryk_jerzy_chmielewski_check_box);
         boolean henrykJerzyChmielewskiIsChecked = henrykJerzyChmielewskiCheckBox.isChecked();
 
@@ -56,9 +55,9 @@ public class Question3Activity extends AppCompatActivity {
                 && !agataNowickaIsChecked && !haGaIsChecked
                 && !januszChristaIsChecked && !jeanJacquesSempeIsChecked
                 && !rafalSkarzyckiIsChecked && !reneGoscinnyIsChecked
-                && !scottAdamsIsChecked && !tomaszLewLesniakIsChecked){
+                && !scottAdamsIsChecked && !tomaszLewLesniakIsChecked) {
             Toast.makeText(this, R.string.empty_answer123_communique, Toast.LENGTH_SHORT).show();
-        }else {
+        } else {
             answers[2] = (henrykJerzyChmielewskiIsChecked && papcioChmielIsChecked
                     && !agataNowickaIsChecked && !haGaIsChecked && !januszChristaIsChecked && !jeanJacquesSempeIsChecked
                     && !rafalSkarzyckiIsChecked && !reneGoscinnyIsChecked && !scottAdamsIsChecked && !tomaszLewLesniakIsChecked);
@@ -72,7 +71,7 @@ public class Question3Activity extends AppCompatActivity {
         }
     }
 
-    public void previousQuestion (View v){
+    public void previousQuestion(View v) {
 
         Intent i = new Intent(this, Question2Activity.class);
         i.putExtras(saveData);

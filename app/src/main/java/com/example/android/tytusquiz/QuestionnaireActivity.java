@@ -9,8 +9,6 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import static android.R.attr.name;
-
 public class QuestionnaireActivity extends AppCompatActivity {
 
     @Override
@@ -20,7 +18,7 @@ public class QuestionnaireActivity extends AppCompatActivity {
     }
 
     @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
-    public void startQuiz(View v){
+    public void startQuiz(View v) {
 
         EditText nameField = (EditText) findViewById(R.id.name_input);
 

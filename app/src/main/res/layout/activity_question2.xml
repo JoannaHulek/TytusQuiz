@@ -1,98 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ScrollView android:layout_height="match_parent"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:fillViewport="true"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    tools:context="com.example.android.tytusquiz.Question1Activity">
 
-
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+    <RelativeLayout
         android:id="@+id/activity_question1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingBottom="@dimen/activity_vertical_margin"
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingTop="@dimen/activity_vertical_margin"
-        tools:context="com.example.android.tytusquiz.Question1Activity">
-
+        android:paddingTop="@dimen/activity_vertical_margin">
 
         <ImageView
             android:id="@+id/image"
             android:layout_width="wrap_content"
             android:layout_height="200dp"
-            android:src="@drawable/img_q02"
             android:layout_centerHorizontal="true"
-            android:contentDescription="@string/img_2_tip" />
+            android:contentDescription="@string/img_2_tip"
+            android:src="@drawable/img_q02" />
 
         <TextView
             android:id="@+id/question"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
             android:layout_below="@id/image"
+            android:layout_centerHorizontal="true"
             android:text="@string/question2" />
+
+        <LinearLayout
+            android:id="@+id/question1_answers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/question"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/romek_check_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/with_romek" />
+
+            <CheckBox
+                android:id="@+id/atomek_check_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/with_atomek" />
+
+            <CheckBox
+                android:id="@+id/flip_n_flap_check_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/with_flip_n_flap" />
+
+            <CheckBox
+                android:id="@+id/captain_america_check_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/with_captain_america" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/button_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/question1_answers"
+            android:layout_marginTop="30dp">
+
+            <Button
+                android:id="@+id/previous_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:onClick="previousQuestion"
+                android:text="@string/previous_question" />
+
+            <Button
+                android:id="@+id/next_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:onClick="nextQuestion"
+                android:text="@string/next_question" />
+        </RelativeLayout>
 
         <ProgressBar
             android:id="@+id/progress_bar"
             style="@style/Widget.AppCompat.ProgressBar.Horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/button_section"
             android:max="5"
             android:progress="2" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_above="@id/progress_bar"
-            android:layout_alignParentRight="true"
-            android:id="@+id/next_button"
-            android:onClick="nextQuestion"
-            android:text="@string/next_question" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_above="@id/progress_bar"
-            android:layout_alignParentLeft="true"
-            android:id="@+id/previous_button"
-            android:onClick="previousQuestion"
-            android:text="@string/previous_question" />
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_below="@+id/question"
-            android:layout_centerHorizontal="true">
-
-            <CheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/romek_check_box"
-                android:text="@string/with_romek" />
-
-            <CheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/atomek_check_box"
-                android:text="@string/with_atomek" />
-
-            <CheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/flip_n_flap_check_box"
-                android:text="@string/with_flip_n_flap" />
-
-            <CheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/captain_america_check_box"
-                android:text="@string/with_captain_america" />
-
-
-        </LinearLayout>
     </RelativeLayout>
 </ScrollView>

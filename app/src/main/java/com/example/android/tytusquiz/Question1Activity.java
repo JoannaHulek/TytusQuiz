@@ -27,7 +27,7 @@ public class Question1Activity extends AppCompatActivity {
         RadioGroup question1Answers = (RadioGroup) findViewById(R.id.question1_answers);
         RadioButton selectedAnswer = (RadioButton) findViewById(question1Answers.getCheckedRadioButtonId());
 
-        if (selectedAnswer == null){
+        if (selectedAnswer == null) {
             Toast.makeText(this, R.string.empty_answer123_communique, Toast.LENGTH_SHORT).show();
         } else {
             RadioButton tytusDeZooRadioButton = (RadioButton) findViewById(R.id.tytus_de_zoo_radio_button);

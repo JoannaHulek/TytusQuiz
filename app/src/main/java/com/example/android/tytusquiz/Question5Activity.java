@@ -1,8 +1,8 @@
 package com.example.android.tytusquiz;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -23,12 +23,11 @@ public class Question5Activity extends AppCompatActivity {
     public void nextQuestion(View v) {
 
         EditText answer5Field = (EditText) findViewById(R.id.answer_5_input);
-        if (answer5Field.getText().toString().trim().length() == 0) {
+        if (answer5Field.getText().toString().isEmpty()) {
             Toast.makeText(this, R.string.empty_answer5_communique, Toast.LENGTH_SHORT).show();
-        }
-        else {
+        } else {
             String answer5 = answer5Field.getText().toString();
-            answers[4] = (answer5.equals("Prasolot") || answer5.equals("prasolot"));
+            answers[4] = (answer5.equalsIgnoreCase("Prasolot"));
 
             saveData.putBooleanArray("answers", answers);
 

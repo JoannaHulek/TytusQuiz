@@ -1,16 +1,11 @@
 package com.example.android.tytusquiz;
 
 import android.content.Intent;
-import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
-
-import com.google.android.gms.appindexing.Action;
-import com.google.android.gms.appindexing.AppIndex;
-import com.google.android.gms.appindexing.Thing;
-import com.google.android.gms.common.api.GoogleApiClient;
+import android.widget.Toast;
 
 import java.util.Arrays;
 import java.util.List;
@@ -44,6 +39,7 @@ public class QuizReviewActivity extends AppCompatActivity {
 
         TextView scoreField = (TextView) findViewById(R.id.score_text_view);
         scoreField.setText(scoreMessage);
+        Toast.makeText(this, scoreMessage, Toast.LENGTH_SHORT).show();
 
         prepareReviewMessage();
     }
@@ -54,8 +50,8 @@ public class QuizReviewActivity extends AppCompatActivity {
 
         reviewMessage = getString(review_parts_1.get(score)) + name + getString(review_parts_2.get(score));
 
-        TextView riviewField = (TextView) findViewById(R.id.review_text_view);
-        riviewField.setText(reviewMessage);
+        TextView reviewField = (TextView) findViewById(R.id.review_text_view);
+        reviewField.setText(reviewMessage);
     }
 
     public void again(View v) {

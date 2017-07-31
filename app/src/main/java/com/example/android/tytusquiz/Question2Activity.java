@@ -1,13 +1,11 @@
 package com.example.android.tytusquiz;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.Toast;
-
-import static android.R.attr.name;
 
 public class Question2Activity extends AppCompatActivity {
 
@@ -22,7 +20,7 @@ public class Question2Activity extends AppCompatActivity {
         answers = saveData.getBooleanArray("answers");
     }
 
-    public void nextQuestion (View v){
+    public void nextQuestion(View v) {
         CheckBox romekCheckBox = (CheckBox) findViewById(R.id.romek_check_box);
         boolean romekIsChecked = romekCheckBox.isChecked();
 
@@ -37,7 +35,7 @@ public class Question2Activity extends AppCompatActivity {
 
         if (!romekIsChecked && !atomekIsChecked && !flipNFlapIsChecked && !captainAmericaIsChecked) {
             Toast.makeText(this, R.string.empty_answer123_communique, Toast.LENGTH_SHORT).show();
-        }else {
+        } else {
             answers[1] = (romekIsChecked && atomekIsChecked && !flipNFlapIsChecked && !captainAmericaIsChecked);
 
             saveData.putBooleanArray("answers", answers);
@@ -48,7 +46,7 @@ public class Question2Activity extends AppCompatActivity {
         }
     }
 
-    public void previousQuestion (View v){
+    public void previousQuestion(View v) {
         Intent i = new Intent(this, Question1Activity.class);
         i.putExtras(saveData);
         startActivity(i);
