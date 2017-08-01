@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.Arrays;
 import java.util.List;
@@ -13,7 +12,6 @@ import java.util.List;
 public class QuizReviewActivity extends AppCompatActivity {
 
     private Bundle saveData;
-    boolean[] answers;
     private int score;
     private String name;
     private String scoreMessage;
@@ -24,27 +22,18 @@ public class QuizReviewActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz_review);
         saveData = getIntent().getExtras();
-        answers = saveData.getBooleanArray("answers");
+        score = saveData.getInt("score");
         name = saveData.getString("name");
-
-        calculateScore();
-    }
-
-    private void calculateScore() {
-        for (int i = 0; i < 5; i++) {
-            if (answers[i]) score++;
-        }
-
-        scoreMessage = "Twój wynik to: " + score;
-
-        TextView scoreField = (TextView) findViewById(R.id.score_text_view);
-        scoreField.setText(scoreMessage);
-        Toast.makeText(this, scoreMessage, Toast.LENGTH_SHORT).show();
 
         prepareReviewMessage();
     }
 
     private void prepareReviewMessage() {
+        scoreMessage = getString(R.string.your_score) + score;
+
+        TextView scoreField = (TextView) findViewById(R.id.score_text_view);
+        scoreField.setText(scoreMessage);
+
         List<Integer> review_parts_1 = Arrays.asList(R.string.review_0_part1, R.string.review_1_part1, R.string.review_2_part1, R.string.review_3_part1, R.string.review_4_part1, R.string.review_5_part1);
         List<Integer> review_parts_2 = Arrays.asList(R.string.review_0_part2, R.string.review_1_part2, R.string.review_2_part2, R.string.review_3_part2, R.string.review_4_part2, R.string.review_5_part2);
 

@@ -60,7 +60,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
-                android:onClick="nextQuestion"
+                android:onClick="endQuiz"
                 android:text="@string/end_quiz" />
         </RelativeLayout>
 
@@ -72,6 +72,16 @@
             android:layout_below="@+id/button_section"
             android:max="5"
             android:progress="5" />
+
+        <Button
+            android:id="@+id/go_to_review_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/progress_bar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:onClick="goToReview"
+            android:text="@string/go_to_review" />
 
     </RelativeLayout>
 </ScrollView>

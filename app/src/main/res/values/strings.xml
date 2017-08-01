@@ -52,5 +52,7 @@
     <string name="empty_answer123_communique">Zaznacz odpowiedź!</string>
     <string name="select_from_list">Wybierz z listy</string>
     <string name="select_answer_from_list">Wybierz odpowiedź z listy!</string>
+    <string name="your_score">Twój wynik to: </string>
+    <string name="go_to_review">Przejdź do podsumowania</string>
 
 </resources>

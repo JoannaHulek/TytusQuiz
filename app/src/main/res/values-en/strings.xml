@@ -35,11 +35,24 @@
     <string name="with_flip_n_flap">With Flip and Flap</string>
     <string name="with_romek">With Romek</string>
     <string name="img_questionnaire_tip">Questionnaire</string>
-    <string name="review_2_part1">"Well, "</string>
     <string name="empty_questionnarie_communique">Type your name!</string>
     <string name="empty_answer5_communique">Type your answer!</string>
     <string name="empty_answer123_communique">Select answer!</string>
     <string name="select_from_list">Select from list</string>
     <string name="select_answer_from_list">Select answet from list!</string>
-    <string name="review_0_part1">" "</string>
+    <string name="your_score">Your score: </string>
+    <string name="review_0_part1"> </string>
+    <string name="review_0_part2">, na prawdę nic nie wiesz o Tytusie? No nie żartuj! Czas więc najwyższy, żeby nadrobić wszystkie zaległości. Sięgnij po komiksy - na pewno Ci się spodobają!</string>
+    <string name="review_1_part1"> </string>
+    <string name="review_1_part2">, przyznaj się - tą jedną poprawną odpowiedź udało Ci się zaznaczyć przez przypadek, prawda? ;-) No cóż, zbyt wiele o Tytusie to Ty nie wiesz... Nieważne, poczytaj komiksy, to się dowiesz!</string>
+    <string name="review_2_part1">No,</string>
+    <string name="review_2_part2">, coś tam obiło Ci się o uszy, ale raczej niewiele. Masz dużo do nadrobienia! Poczytaj komiksy!</string>
+    <string name="review_3_part1">Kojarzysz Tytusa i jego przyjaciół, ale ich przygody znasz tylko pobieżnie. Wiesz co</string>
+    <string name="review_3_part2">, lepiej odłóż ten telefon, weź komiksy do ręki i koniecznie nadrób wszystkie zaległości!</string>
+    <string name="review_4_part1">Brawo</string>
+    <string name="review_4_part2">! Całkiem dobrze znasz serię o Tytusie! Aczkolwiek wciąż ma ona dla Ciebie kilka tajemnic. Nic nie szkodzi, nadrobisz!</string>
+    <string name="review_5_part1">Piąteczka Mistrzu! Gratulacje</string>
+    <string name="review_5_part2">! Wiesz o Tytusie bardzo dużo i pewnie chętnie sięgasz po komiksy Papcia Chmiela. Tak trzymać!</string>
+    <string name="go_to_review">Go to review</string>
+
 </resources>
